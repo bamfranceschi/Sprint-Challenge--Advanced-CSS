@@ -7,12 +7,20 @@ nav{
     // justify-content: center;
     .headerFooterStyles();
     // background-color: @wild-sand;
+    
+    @media @phone{
+        // height: 200px;
+    }
 
 
     .companyName{
         color: @river-bend;
         text-align: center;
         margin: 1% 17%;
+
+        @media @phone{
+            padding: 2%;
+        }
 
     }// This closes companyName
 
@@ -22,6 +30,11 @@ nav{
         // justify-content: space-evenly;
         text-align: center;
         margin: 1% 17%;
+
+        @media @phone{
+            padding-bottom: 2%;
+            margin: 1% 8%;
+        }
 
         a{
             text-decoration: none;
