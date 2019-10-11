@@ -1,1 +1,31 @@
 // Mixins Here
+
+.headerFooterStyles{
+    background-color: @nav-bg;
+    border: 1px double @nav-border;
+}
+
+.displayFlex(@justify){
+    display: flex;
+    justify-content: @justify;
+}
+
+.imgRadius(@radius){
+    border-radius: @radius;
+}
+
+.custom-btn(@width, @height){
+    width: @width;
+    height: @height;
+    background-color: @btn-bg-color;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    font-family: @main-font;
+
+    &:hover{
+        background-color: white;
+        color: @btn-bg-color;
+    }
+
+}

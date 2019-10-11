@@ -1,1 +1,53 @@
 // Navigation code here
+
+nav{
+    .displayFlex(center);
+    // display:flex;
+    flex-direction: column;
+    // justify-content: center;
+    .headerFooterStyles();
+    // background-color: @wild-sand;
+    
+    //For sticky nav//
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.85;
+
+
+    .companyName{
+        color: @river-bend;
+        text-align: center;
+        margin: 1% 17%;
+
+        @media @phone{
+            padding: 2%;
+        }
+
+    }// This closes companyName
+
+    .links{
+        .displayFlex(space-evenly);
+        // display: flex;
+        // justify-content: space-evenly;
+        text-align: center;
+        margin: 1% 17%;
+
+        @media @phone{
+            padding-bottom: 2%;
+            margin: 1% 8%;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 1.8rem;
+            color: @shuttle-gray;
+            
+        }
+
+
+    } //This closes links
+
+
+} //This closes nav 
