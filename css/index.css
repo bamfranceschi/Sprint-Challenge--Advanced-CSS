@@ -173,8 +173,11 @@ nav {
   flex-direction: column;
   background-color: #F6F6F6;
   border: 1px double #F1F1F1;
-}
-@media (max-width: 500px) {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.85;
 }
 nav .companyName {
   color: #454A59;
@@ -213,6 +216,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home {
+  padding-top: 9%;
+}
+@media (max-width: 500px) {
+  .home {
+    padding-top: 22%;
+  }
+}
 .home .intro img {
   border-radius: 5px;
   margin-bottom: 1%;
@@ -239,8 +250,10 @@ footer {
   margin: 20px 2.5%;
   height: 100%;
 }
-.home .space-images .blast {
-  width: 93%;
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 93%;
+  }
 }
 @media (max-width: 500px) {
   .home .space-images .sky {
