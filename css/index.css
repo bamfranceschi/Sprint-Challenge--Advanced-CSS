@@ -1,3 +1,7 @@
+.headerFooterStyles {
+  background-color: #F6F6F6;
+  border: 1px double #F1F1F1;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +172,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   background-color: #F6F6F6;
+  border: 1px double #F1F1F1;
 }
 nav .companyName {
   color: #454A59;
@@ -186,10 +191,10 @@ nav .links a {
   color: #5E6164;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  background-color: #F6F6F6;
+  border: 1px double #F1F1F1;
+  color: #81848E;
   padding: 20px 0;
-  border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -211,9 +216,9 @@ footer {
   width: 100%;
 }
 .home .space-images img {
+  border-radius: 20px;
   width: 28%;
   margin: 20px 2.5%;
-  border-radius: 20px;
   height: 100%;
 }
 .home .visit-planets {
@@ -262,7 +267,7 @@ footer {
   margin-left: 4%;
 }
 .home .walk .walk-img img {
+  border-radius: 10px;
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }

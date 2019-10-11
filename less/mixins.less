@@ -1,8 +1,17 @@
 // Mixins Here
 
+.headerFooterStyles{
+    background-color: @nav-bg;
+    border: 1px double @nav-border;
+}
+
 .displayFlex(@justify){
     display: flex;
     justify-content: @justify;
+}
+
+.imgRadius(@radius){
+    border-radius: @radius;
 }
 
 .custom-btn(@width, @height){
